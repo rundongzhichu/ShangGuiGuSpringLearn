@@ -11,6 +11,7 @@
     <!--value: 具体的值，基本数据类型-->
     <bean id="user" class="com.spring.ioc.User">
         <property name="name" value="张三"></property>
+        <property name="age" value="14"></property>
     </bean>
 
 </beans>
