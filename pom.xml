@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-first</module>
+        <module>spring-jdbc-demo</module>
+        <module>spring-annotation-transanction-demo</module>
     </modules>
 
     <properties>
