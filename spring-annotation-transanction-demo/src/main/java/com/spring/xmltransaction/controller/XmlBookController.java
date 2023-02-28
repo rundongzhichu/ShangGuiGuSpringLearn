@@ -1,9 +1,8 @@
-package com.spring.annotransaction.controller;
+package com.spring.xmltransaction.controller;
 
-import com.spring.annotransaction.service.BookService;
-import com.spring.annotransaction.service.CheckoutService;
+import com.spring.xmltransaction.service.BookService;
+import com.spring.xmltransaction.service.CheckoutService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
 
@@ -29,7 +28,7 @@ import org.springframework.stereotype.Controller;
  */
 
 @Controller
-public class BookController {
+public class XmlBookController {
     //controller需要用到BookSdervice对象
     //自动装配
     @Autowired

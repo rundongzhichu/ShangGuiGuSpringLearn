@@ -14,6 +14,12 @@ public class BookControllerTest {
     @Test
     public void testBuyBook(){
         //用户id为1的用户买图书id为1的图书
-        bookController.buyBook(1,1);
+        bookController.buyBook(1,2);
     }
+
+    @Test
+    public void testCheckout(){
+        bookController.checkout(1, new Integer[]{1,2});
+    }
+
 }
